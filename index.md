@@ -1,2 +1,2 @@
 # IsBeer
-## Politica de privacidade <privacidade.html>
+## (Politica de privacidade)[privacidade.html]
