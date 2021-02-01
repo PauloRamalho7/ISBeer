@@ -20,7 +20,3 @@ Tal como outros websites, coletamos e utilizamos informação contida nos anúnc
 ## Ligações a Sites de terceiros
 
 O IsBeer não possui ligações para outros sites.
-=======
-# IsBeer
-## (Politica de privacidade)[privacidade.html]
->>>>>>> d39e4b24307f7827e295fcde0c18d20babb1881b
