@@ -139,6 +139,14 @@ type
     img_combo_capacidade: TImage;
     img_combo_marca: TImage;
     edt_marca: TEdit;
+    TabAbout: TTabItem;
+    lytToolBar: TLayout;
+    img_back: TImage;
+    Label3: TLabel;
+    actTab4: TChangeTabAction;
+    Image1: TImage;
+    Label4: TLabel;
+    Label5: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure tmrSplashTimer(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -165,6 +173,9 @@ type
     procedure img_combo_capacidadeClick(Sender: TObject);
     procedure img_combo_marcaClick(Sender: TObject);
     procedure edt_marcaExit(Sender: TObject);
+    procedure img_backClick(Sender: TObject);
+    procedure lblToolbarClick(Sender: TObject);
+    procedure lblSoftEVersaoClick(Sender: TObject);
   private
     procedure SelecionaAba(lyt: Tlayout);
     procedure PaintIcon(aba: Integer);
@@ -702,6 +713,11 @@ begin
     IncItem             := False;
 end;
 
+procedure TfrmMain.img_backClick(Sender: TObject);
+begin
+    SelecionaAba(Layout_aba1);
+end;
+
 procedure TfrmMain.img_combo_capacidadeClick(Sender: TObject);
 begin
     actTab3.Execute;
@@ -770,6 +786,16 @@ end;
 procedure TfrmMain.Layout_aba1Click(Sender: TObject);
 begin
     SelecionaAba(Tlayout(Sender));
+end;
+
+procedure TfrmMain.lblSoftEVersaoClick(Sender: TObject);
+begin
+    actTab4.Execute;
+end;
+
+procedure TfrmMain.lblToolbarClick(Sender: TObject);
+begin
+    actTab4.Execute;
 end;
 
 procedure TfrmMain.lstCapacidadesItemClick(const Sender: TObject;
