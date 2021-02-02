@@ -198,7 +198,7 @@ var
   aItens    : Array of TItem;
   IncItem   : Boolean;
 Const
-  vVersion = '0.00.000';
+  vVersion = '1.00.000';
   StVazio  = 'Irmos comprar mais cerveja !!!';
 implementation
 
